@@ -1,8 +1,0 @@
-¿Que es Vue?
-
-Vue es un framework progresivo para construir interfaces de usuarios
-Diseñado para ser adoptado gradualmente
-Podemos crear SPA single web aplication
-
-https://bluuweb.github.io/vue-udemy/01-fundamentos/
-https://v3.vuejs.org/guide/introduction.html
