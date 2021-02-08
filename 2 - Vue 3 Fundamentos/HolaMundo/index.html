@@ -70,10 +70,16 @@
         <!-- Si disable es true, desactivamos el boton -->
         <button @click="disminuirSaldo(100)" :disabled="desactivar">Quitar Saldo</button>
 
+        <!-- capturamos cantidad del main.js para monstrarlo en el footer -->
+        <footer-banco 
+        :valor="cantidad"
+        fecha="febrero 2021"
+        ></footer-banco>
 
     </div>
 
     <script src="main.js"></script>
+    <script src="components/footer.js"></script>
     <script>
         const mountedApp = app.mount('#app'); 
     </script>
