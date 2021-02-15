@@ -8,6 +8,7 @@
       v-model.trim="tarea.nombre"
     />
 
+    <h6 class="mt-3">Conocimientos:</h6>
     <div class="form-check form-check-inline">
       <input
         type="checkbox"
@@ -30,6 +31,7 @@
       <label for="check-2" class="form-check-label">Node.Js</label>
     </div>
 
+    <h6 class="mt-2">Disponibilidad:</h6>
     <div class="mt-2">
       <div class="form-check form-check-inline">
         <input
@@ -39,7 +41,7 @@
           v-model="tarea.estado"
           value="urgente"
         />
-        <label for="radio-1" class="form-check-label">Urgente</label>
+        <label for="radio-1" class="form-check-label">Full-Time</label>
       </div>
 
       <div class="form-check form-check-inline">
@@ -50,10 +52,11 @@
           v-model="tarea.estado"
           value="relax"
         />
-        <label for="radio-2" class="form-check-label">Relax</label>
+        <label for="radio-2" class="form-check-label">Part-Time</label>
       </div>
     </div>
 
+    <h6 class="mt-2">Sueldo estimado:</h6>
     <div class="mt-2">
       <!-- v-model.number indica a vue que el valor es numerico -->
       <input type="number" class="form-control" v-model.number="tarea.numero" />

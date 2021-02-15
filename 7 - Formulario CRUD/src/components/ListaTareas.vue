@@ -2,17 +2,17 @@
    <table class="table table-secondary">
       <thead>
          <tr>
-            <th scope="col">#</th>
+            <!-- <th scope="col">#</th> -->
             <th scope="col">Nombre</th>
-            <th scope="col">Categoria</th>
-            <th scope="col">Estado</th>
-            <th scope="col">Numero</th>
+            <th scope="col">Conocimientos</th>
+            <th scope="col">Horario</th>
+            <th scope="col">Sueldo</th>
             <th scope="col">Acción</th>
          </tr>
       </thead>
       <tbody>
          <tr v-for="item in tareas" :key="item.id">
-            <th scope="row">{{ item.id }}</th>
+            <!-- <th scope="row">{{ item.id }}</th> -->
             <td>{{ item.nombre }}</td>
             <td>
                {{ item.categorias.join(', ') }}

@@ -2,6 +2,7 @@
   <div>
     <Navbar />
     <div class="container">
+      <h1>Formulario de practica</h1>
       <router-view/>
     </div>
   </div>
